@@ -37,7 +37,7 @@ if (array.length>0 ){
    }
    document.getElementById("Result").innerHTML = e;
  }
- else {
+ else {        
     document.getElementById("Result").innerHTML = "Please enter at least one value.";
  }
 
@@ -45,11 +45,13 @@ if (array.length>0 ){
 }
 // restart with an empty array
 function deleteElements(){
-   array= [];
-  
-   document.getElementById("Result").innerHTML = "Please enter at least one value.";
+//    array= [];
    
-   document.getElementById("result").innerHTML = "";
+//    document.getElementById("Result").innerHTML = "Please enter at least one value.";
+   
+//    document.getElementById("result").innerHTML = "";
+location.reload();
+
 }
 
 function indexOfMax(){
