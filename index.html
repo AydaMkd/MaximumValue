@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Index Of Maximum Value</title>
+<style>
+#text1{
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+font-size: medium;
+font-style: normal;
+}
+#button {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: rgb(134, 194, 247);
+  text-decoration: solid;
+  font-size: medium;
+}
+#result{
+    
+    color: rgb(5, 6, 13);
+    font-size:x-large;
+}
+#button1{
+  width: 15%;
+  height:6%;
+  background-color:brown;
+     margin-top: 270px;
+     margin-right:210px;
+     position:absolute;
+     top:0;
+     right:0;
+ font-size: small;
+}
+h1{
+    text-align: center;
+    
+}
+body{
+    background-color: rgba(232, 163, 117, 0.891);
+}
+#Result{
+    font-size:large;
+}
+</style> 
+<script src= "array.js"></script>
+</head>
+<body>
+<h1>Find the Maximum Value Of An Array Of Integers</h1>
+<input type="text" placeholder=" Please enter array element of type integer" id="text1"></input>
+<input type="button" id="button" value="Add Array Value" onclick="add_numbers_to_array();"></input>
+<input type="button" id="button" value="Find Maximum value" onclick="indexOfMax();"></input>
+<div id="Result"></div> 
+<input type="button" id="button1" value="Delete Array Values" onclick="deleteElements();"></input>
+<h3 id ="result"></h3>
+</body>
+</html>
