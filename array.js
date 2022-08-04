@@ -16,6 +16,7 @@ function add_numbers_to_array()
     array[x]= Number(number)
     x++;
     document.getElementById("text1").value = "";
+    document.getElementById("result").innerHTML = '';
     }
     // error message in case input is a number but not integer
 else {
@@ -27,7 +28,7 @@ else {
     document.getElementById("result").innerHTML =' Please enter an integer';
  }
 // Check if the array is not empty then display array values 
-if (array.length>0){
+if (array.length>0 ){
     var e = "<hr/>";   
     
    for (var y=0; y<array.length; y++)
@@ -40,8 +41,6 @@ if (array.length>0){
     document.getElementById("Result").innerHTML = "Please enter at least one value.";
  }
 
-// error message in case input is not a number
- 
   return array
 }
 // restart with an empty array
