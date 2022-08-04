@@ -21,7 +21,8 @@ function indexOfMax(arr){
     
     
     }
-indexOfMax([0.6])
+indexOfMax([0,6])
+
 
    
 
@@ -57,4 +58,4 @@ indexOfMax([0.6])
     console.log("index(es) of the highest value in the given array is (are) "+ maxi);
         
         }
-  indexOfMaximums(['a'])
+  indexOfMaximums([1, 2, 8])
