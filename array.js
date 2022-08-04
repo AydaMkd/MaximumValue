@@ -6,7 +6,7 @@ function add_numbers_to_array()
 {
  // check if the input value is a number and not null
  let check =document.getElementById("text1").value;
- if (isNaN(check) == false && check !== '' ){
+ if (isNaN(check) == false && check != "undefined" && check != "" ){
 // check if the input value is an integer
 
     if (Number.isInteger(+check) == true){
