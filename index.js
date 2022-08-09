@@ -48,9 +48,10 @@ indexOfMax([0,6])
         const max = Math.max(...arr);
         
       
-        for ( const num of arr){
-            if (num == max){
-                maxi.push(arr.indexOf(num))
+        for ( let i= 0 ; i<arr.length; i++){
+            if (arr[i] == max){
+                maxi.push(i)
+                
             }
     
         }
@@ -58,4 +59,4 @@ indexOfMax([0,6])
     console.log("index(es) of the highest value in the given array is (are) "+ maxi);
         
         }
-  indexOfMaximums([1, 2, 8])
+  indexOfMaximums([1, 2, 8,8])
